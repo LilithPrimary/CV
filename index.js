@@ -1,0 +1,1 @@
+import projects from './assets/script/projects.js';
