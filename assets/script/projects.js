@@ -8,7 +8,7 @@ const projects = [
     {
     name: "Eco sound",
     img: "./assets/svg/eco-sound.svg",
-    url: "https://lilithprimary.github.io/rsschool0/eco-sound/"
+    url: "https://lilithprimary.github.io/rsschool0/eco-sounds/"
     },
     {
     name: "Audio player",
