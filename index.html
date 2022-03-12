@@ -16,7 +16,7 @@
 
 <body>
     <div class="wrapper">
-        <header class="header">
+        <header class="header" id="ontop">
             <nav class="header__menu">
                 <ul class="header__list">
                     <li><a href="#about" class="header__link link">ABOUT</a></li>
@@ -25,8 +25,13 @@
                     <li><a href="#education" class="header__link link">EDUCATION</a></li>
                     <li><a href="#languages" class="header__link link">LANGUAGES</a></li>
                     <li><a href="#projects" class="header__link link">PROJECTS</a></li>
-                </ul>
-                <div class="header__burger"></div>
+                </ul> <br>
+                <p><a href="#ontop" class="header__link link material-icons-outlined ontop">arrow_upward</a></p>
+                <div class="header__burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </nav>
             <div class="header__about">
                 <div class="header__foto">
@@ -80,7 +85,7 @@
                 </section>
                 <section class="section skills" id="skills">
                     <h2>Skills</h2>
-                    <div class="section__container">
+                    <div class="skills__container">
                         <ul class="section__list skills__hard">Hard
                             <li>
                                 <i class="fa-brands fa-js"></i>
@@ -119,12 +124,42 @@
                             </li>
                         </ul>
                         <ul class="section__list skills__soft">Soft
-                            <li>Critical thinking</li>
-                            <li>Communicative</li>
-                            <li>Teamwork</li>
-                            <li>Problem solving</li>
-                            <li>Quick learning skills</li>
-                            <li>Willingness to learn</li>
+                            <li>
+                                <span class="material-icons-outlined">
+                                    done
+                                </span>
+                                Critical thinking
+                            </li>
+                            <li>
+                                <span class="material-icons-outlined">
+                                    done
+                                </span>
+                                Communicative
+                            </li>
+                            <li>
+                                <span class="material-icons-outlined">
+                                    done
+                                </span>
+                                Teamwork
+                            </li>
+                            <li>
+                                <span class="material-icons-outlined">
+                                    done
+                                </span>
+                                Problem solving
+                            </li>
+                            <li>
+                                <span class="material-icons-outlined">
+                                    done
+                                </span>
+                                Quick learning skills
+                            </li>
+                            <li>
+                                <span class="material-icons-outlined">
+                                    done
+                                </span>
+                                Willingness to learn
+                            </li>
                         </ul>
                     </div>
                 </section>
@@ -148,16 +183,17 @@
                             <p>Python courses <i>2020</i></p>
                         </li>
                         <li>
-                            <p><b>Rolling Scopes School</b></p>
+                            <p><a href="https://app.rs.school/certificate/q5wopyim" target="_blank"
+                                    class="link"><b>Rolling Scopes School</b></a></p>
                             <p>JS/Frontend Developer <i>In progress</i></p>
                         </li>
                     </ul>
                 </section>
                 <section class="section languages" id="languages">
                     <h2>Languages</h2>
-                    <ul class="section__list">
-                        <li>RUSSIAN native</li>
+                    <ul class="languages__list">
                         <li>ENGLISH B1</li>
+                        <li>RUSSIAN native</li>
                     </ul>
                 </section>
                 <section class="section projects" id="projects">

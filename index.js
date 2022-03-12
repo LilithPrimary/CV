@@ -1,6 +1,9 @@
 import projects from './assets/script/projects.js';
 
 const projectContainer = document.querySelector(".projects__container");
+const burger = document.querySelector(".header__burger");
+const headerMenu = document.querySelector("nav");
+const menuLinks = document.querySelectorAll(".header__link");
 
 function fillProjectContainer() {
     projects.forEach(el => {
@@ -19,3 +22,10 @@ function fillProjectContainer() {
     })
 }
 fillProjectContainer();
+
+[...menuLinks, burger].forEach(el => el.addEventListener("click", () => {
+    toggleBurgerMenu();
+}))
+function toggleBurgerMenu () {
+    [burger, headerMenu].forEach(el => el.classList.toggle("open"));
+}
