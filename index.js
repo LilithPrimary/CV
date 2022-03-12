@@ -1,4 +1,5 @@
 import projects from './assets/script/projects.js';
+import code from "./assets/script/code.js"
 
 const projectContainer = document.querySelector(".projects__container");
 const burger = document.querySelector(".header__burger");
@@ -28,4 +29,15 @@ fillProjectContainer();
 }))
 function toggleBurgerMenu () {
     [burger, headerMenu].forEach(el => el.classList.toggle("open"));
+}
+const codeButton = document.querySelectorAll(".code__button");
+const codeArea = document.querySelector(".code__area");
+codeButton.forEach(el => el.addEventListener("click", (e) =>{
+    document.querySelector(".code__button-active").classList.remove("code__button-active");
+    e.target.classList.add("code__button-active");
+    fillCodeArea(e.target.id);
+}))
+
+function fillCodeArea(n) {
+    codeArea.innerHTML = code[n];
 }

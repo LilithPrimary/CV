@@ -1,6 +1,7 @@
 :root {
   --color-black: rgb(62, 66, 65);
   --color-blue: rgb(186, 221, 217);
+  --color-orange: rgb(254, 204, 0);
   --center-burger: 12.3px;
 }
 
@@ -107,6 +108,11 @@ body {
   }
   .header__menu {
     position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 100px;
     background-color: var(--color-black);
     right: -200vw;
     z-index: 5;
@@ -119,7 +125,7 @@ body {
   }
   .header__burger {
     position: fixed;
-    right: 15px;
+    right: 30px;
     top: 15px;
     width: 50px;
     cursor: pointer;
@@ -140,7 +146,7 @@ body {
     transition: 0.3s;
   }
   .header__burger:hover span {
-    background: orange;
+    background: var(--color-orange);
   }
   .header__burger.open span:nth-child(1) {
     animation: top 0.7s ease forwards;
@@ -251,7 +257,7 @@ body {
   background-color: var(--color-blue);
   align-items: center;
   justify-items: center;
-  padding: 15px;
+  padding: 30px;
 }
 
 .header__foto {
@@ -307,8 +313,8 @@ body {
   transition: 0.3s;
 }
 .link:hover {
-  color: orange;
-  fill: orange;
+  color: var(--color-orange);
+  fill: var(--color-orange);
 }
 @media (max-width: 800px) {
   .header__about {
@@ -330,7 +336,7 @@ body {
     grid-area: 3 / 2;
   }
 }
-@media (max-width: 550px) {
+@media (max-width: 560px) {
   .header__about {
     /* display: none; */
     grid-template: auto 50px auto auto / 1fr;
@@ -463,24 +469,37 @@ li {
 .code__container {
   /* display: none; */
   display: grid;
-  grid-template: 30px 1fr / 1fr 1fr 1fr;
+  grid-template: minmax(30px, auto) 1fr / 1fr 1fr 1fr;
   gap: 20px;
 }
 .code__button {
   cursor: pointer;
+  height: 100%;
   transition: 0.3s;
   background: transparent;
   box-shadow: inset 0 0 10px var(--color-blue);
   max-width: 150px;
+  border-radius: 10px;
+  padding: 10px;
 }
 .code__button-active {
-  color: var(--color-blue);
+  color: var(--color-orange);
   pointer-events: none;
-  box-shadow: inset 0 0 10px orange;
+  box-shadow: inset 0 0 10px var(--color-orange);
 }
 .code__button:hover {
   transform: scale(0.95);
-  box-shadow: inset 0 0 10px orange;
+  box-shadow: inset 0 0 10px var(--color-orange);
+}
+.code__area {
+  overflow: auto;
+  width: 100%;
+  height: 250px;
+  box-shadow: inset 0 0 10px var(--color-blue);
+  grid-column: span 3;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: rgb(39, 41, 40);
 }
 .education {
   /* display: none; */
@@ -527,7 +546,7 @@ li {
   transition: 0.3s;
 }
 .projects__item:hover {
-  box-shadow: inset 0 0 10px orange;
+  box-shadow: inset 0 0 10px var(--color-orange);
   transform: scale(0.95);
 }
 .projects__image {
