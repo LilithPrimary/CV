@@ -1,2 +1,2 @@
-# rsschool-cv
-CV stage1
+- Markdown: https://lilithprimary.github.io/rsschool-cv/cv
+- HTML: https://lilithprimary.github.io/rsschool-cv/
