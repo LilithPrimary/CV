@@ -1,2 +1,1 @@
-# rsschool-cv
-CV stage1
+https://lilithprimary.github.io/rsschool-cv/
