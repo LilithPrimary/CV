@@ -34,11 +34,16 @@ const projects = [
     name: "Memory game",
     img: "./assets/svg/memory-game.svg",
     url: "https://lilithprimary.github.io/rsschool0/memory-game/"
-    }, ,
+    },
     {
     name: "Snake",
     img: "./assets/svg/snake.svg",
     url: "https://lilithprimary.github.io/rsschool0/snake/"
+    },
+    {
+    name: "Shelter",
+    img: "./assets/svg/shelter.svg",
+    url: "https://rolling-scopes-school.github.io/lilithprimary-JSFE2022Q1/shelter/pages/main/"
     }]
          
     export default projects;
