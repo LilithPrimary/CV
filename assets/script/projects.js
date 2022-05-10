@@ -44,6 +44,11 @@ const projects = [
     name: "Shelter",
     img: "./assets/svg/shelter.svg",
     url: "https://rolling-scopes-school.github.io/lilithprimary-JSFE2022Q1/shelter/pages/main/"
-    }]
+    },
+    {
+    name: "Virtual keyboard",
+    img: "./assets/svg/virtual-keyboard.svg",
+    url: "https://lilithprimary.github.io/virtual-keyboard/dist/"
+    },]
          
     export default projects;
