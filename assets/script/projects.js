@@ -49,6 +49,11 @@ const projects = [
     name: "Virtual keyboard",
     img: "./assets/svg/virtual-keyboard.svg",
     url: "https://lilithprimary.github.io/virtual-keyboard/dist/"
+    },
+    {
+    name: "Pure css slider",
+    img: "./assets/svg/slider.svg",
+    url: "https://lilithprimary.github.io/cssMemSlider/cssMemSlider/"
     },]
          
     export default projects;
