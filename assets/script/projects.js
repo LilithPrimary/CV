@@ -54,6 +54,12 @@ const projects = [
     name: "Pure css slider",
     img: "./assets/svg/slider.svg",
     url: "https://lilithprimary.github.io/cssMemSlider/cssMemSlider/"
-    },]
+    },    
+    {
+    name: "Pseudo Webpack node.js",
+    img: "./assets/svg/pseudowebpack.svg",
+    url: "https://github.com/LilithPrimary/HTML-builder/tree/main/06-build-page"
+    },
+]
          
     export default projects;
