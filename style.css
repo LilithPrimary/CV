@@ -86,7 +86,6 @@ body {
 .header__list {
   grid-column: 2;
   display: flex;
-  /* display: none; */
   justify-content: space-between;
   padding: 20px;
 }
