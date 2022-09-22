@@ -740,9 +740,17 @@ li {
   font-size: 7px;
 }
 
+.jest {
+  background-image: url("assets/svg/jest.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 18px;
+  margin-right: 15px;
+}
+
 @media (max-width: 768px) {
   .main__content {
-    /* display: none; */
     grid-template-columns: repeat(auto-fit, minmax(auto, 690px));
     justify-content: center;
   }

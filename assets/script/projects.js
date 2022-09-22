@@ -12,7 +12,7 @@ const projects = [
     img: './assets/svg/async-race.svg',
     url: 'https://lilithprimary.github.io/rss-stage1-2-tasks/async-race/',
     gitUrl: 'https://github.com/LilithPrimary/rss-stage1-2-tasks/tree/async-race',
-    description: 'Tractor racing. You can create your oun tractor or create 100 tractors with different names and colors in one click. Sometimes tractors break down before reaching the finish line (depends of server response). Work with async functions and promises. Used Typescript.'
+    description: 'Tractor racing. You can create your own tractor or create 100 tractors with different names and colors in one click. Sometimes tractors break down before reaching the finish line (depends of server response). Work with async functions and promises. Used Typescript.'
   },
   {
     name: 'Online store',
