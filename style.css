@@ -108,6 +108,11 @@ body {
   margin: 0 auto;
 }
 
+.pr15px {
+  text-align: start;
+  padding-left: 2px;
+}
+
 @media (max-width: 768px) {
   .ontop {
     display: block;
