@@ -317,8 +317,8 @@ body {
   box-sizing: content-box;
   border-radius: 50%;
   border: 10px solid var(--color-blue);
-  height: 180px;
-  width: 180px;
+  height: 200px;
+  width: 200px;
   grid-area: 1 / 2 / span 2 / span 1;
   justify-self: end;
 }
