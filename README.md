@@ -1,2 +1,2 @@
-- MD: https://lilithprimary.github.io/rsschool-cv/cv
-- HTML: https://lilithprimary.github.io/rsschool-cv/
+- MD: https://lilithprimary.github.io/CV/cv
+- HTML: https://lilithprimary.github.io/CV/
